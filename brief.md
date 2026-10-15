@@ -43,4 +43,8 @@ Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https:/
 
 ## Misconception in My Track
 
+A common misconception is that any multi-factor authentication method prevents phishing. A password combined with a one-time code can still be stolen through a fake login page and relayed to the real service. The correction is that phishing resistance requires authentication cryptographically tied to the legitimate service or connection. NIST SP 800-63B-4, Section 3.1.5, “Multi-Factor OTPs,” states that OTP authentication is not phishing-resistant. Section 3.2.5, “Phishing Resistance,” explains why manually entered codes do not meet this requirement.
+
 ## Open Question
+
+How could citizens recover access after losing their passkey device without allowing attackers to bypass phishing-resistant authentication through a weaker recovery method?
