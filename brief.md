@@ -25,9 +25,21 @@ Resource: Android Developers - Privacy - Request runtime permissions - https://d
 
 ## Networking
 
+DNS over HTTPS (DoH) sends domain name lookups and their replies through an encrypted HTTPS connection between the user’s device and a DNS resolver. For users of the login service, this helps hide the service’s domain lookup from people monitoring public Wi-Fi or the local network. However, the DNS provider can still see those queries. DoH protects only DNS communication on that connection. It does not encrypt the login session.
+
+Resource: Microsoft Learn - DNS encryption using DoH - https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-encryption-dns-over-https
+
 ## Cybersecurity
 
+Phishing-resistant authentication uses cryptography to bind a login to the genuine service, so a fake website cannot capture and reuse valid login proof. It does not depend on users spotting the fake site. Examples include FIDO2/WebAuthn passkeys activated with a Personal Identification Number (PIN) or biometric, and Personal Identity Verification (PIV) smart cards using client-authenticated Transport Layer Security (TLS) plus a PIN. Passwords combined with SMS codes, authenticator-app codes, or ordinary push approvals, even with number matching, do not qualify.
+
+Resource: NIST SP 800-63B-4 - Digital Identity Guidelines: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+
+Article 3(b) excludes processing that carries out a public authority’s legally assigned functions. Where the law applies, the authority must explain how data will be used, obtain explicit consent unless an exception applies, protect stored data, enable access and correction, keep processing records, appoint a data protection officer, obtain required permits for sensitive data, and report qualifying breaches. It must delete data immediately when its purpose ends, unless a dispute or legal obligation requires retention.
+
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
